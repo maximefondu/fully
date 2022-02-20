@@ -4,16 +4,13 @@ import Menu from '@components/Menu'
 import LogoFully from '@svg/logo-fully.svg'
 import IconHearth from '@svg/hearth.svg'
 import IconCart from '@svg/cart.svg'
+import Logo from '@components/Logo'
 
 const Header = () => {
     return (
         <header className="border-b border-b-grey-200">
             <div className="wrap flex justify-between items-center">
-                <Link href="/">
-                    <a>
-                        <LogoFully className="w-20" />
-                    </a>
-                </Link>
+                <Logo className="w-16" />
 
                 <Menu />
 
