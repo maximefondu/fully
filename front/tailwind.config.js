@@ -1,5 +1,8 @@
 module.exports = {
-    content: ['./**/*.{tsx, ts, js}'],
+    content: [
+        './pages/**/*.{js,ts,jsx,tsx}',
+        './components/**/*.{js,ts,jsx,tsx}'
+    ],
     theme: {
         colors: {
             transparent: 'transparent',
@@ -9,6 +12,7 @@ module.exports = {
             secondary: '#12389F',
             grey: {
                 200: '#F7F7F6',
+                300: '#ECECEC',
                 400: '#CCCCCC',
                 600: '#A0A0A0',
                 700: '#6E6C63',
