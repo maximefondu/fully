@@ -1,3 +1,7 @@
 .wrap {
     @apply max-w-[1180px] mx-auto px-8;
 }
+
+.wrap-md {
+    @apply max-w-[760px] mx-auto px-8;
+}

@@ -1,10 +1,8 @@
-import Link from 'next/link'
-
 import Menu from '@components/Menu'
-import LogoFully from '@svg/logo-fully.svg'
+import Logo from '@components/Logo'
+
 import IconHearth from '@svg/hearth.svg'
 import IconCart from '@svg/cart.svg'
-import Logo from '@components/Logo'
 
 const Header = () => {
     return (

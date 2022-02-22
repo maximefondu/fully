@@ -6,8 +6,6 @@ type Props = {
 }
 
 const Logo = ({ className }: Props) => {
-    console.log(className)
-
     return (
         <Link href="/">
             <a>

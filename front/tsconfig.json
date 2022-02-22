@@ -17,7 +17,9 @@
         "baseUrl": ".",
         "paths": {
             "@pages/*": ["./pages/*"],
+            "@helpers/*": ["./helpers/*"],
             "@components/*": ["./components/*"],
+            "@features/*": ["./features/*"],
             "@svg/*": ["./public/svg/*"]
         }
     },

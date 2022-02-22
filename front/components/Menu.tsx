@@ -26,9 +26,9 @@ const Menu = () => {
                 <li key={item.label}>
                     <Link href={item.href}>
                         <a
-                            className={`flex font-medium px-5 py-8 transition-all duration-300 border-b-2 hover:border-b-primary ${
+                            className={`flex font-normal px-5 py-8 transition-all duration-300 border-b-2 hover:border-b-primary hover:text-black ${
                                 item.current
-                                    ? 'border-b-primary'
+                                    ? 'border-b-primary text-black'
                                     : 'border-b-transparent'
                             }`}
                         >

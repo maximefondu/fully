@@ -1,13 +1,15 @@
 module.exports = {
     content: [
         './pages/**/*.{js,ts,jsx,tsx}',
-        './components/**/*.{js,ts,jsx,tsx}'
+        './components/**/*.{js,ts,jsx,tsx}',
+        './features/**/*.{js,ts,jsx,tsx}'
     ],
     theme: {
         colors: {
             transparent: 'transparent',
             current: 'currentColor',
             white: 'white',
+            black: 'black',
             primary: '#FFB71B',
             secondary: '#12389F',
             grey: {
